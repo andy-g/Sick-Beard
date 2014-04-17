@@ -1179,7 +1179,7 @@ class ConfigNotifications:
 
         sickbeard.USE_BOXCAR2 = config.checkbox_to_value(use_boxcar2)
         sickbeard.BOXCAR2_NOTIFY_ONSNATCH = config.checkbox_to_value(boxcar2_notify_onsnatch)
-        sickbeard.BOXCAR2_NOTIFY_ONDOWNLOAD = config.checkbox_to_value((boxcar2_notify_ondownload)
+        sickbeard.BOXCAR2_NOTIFY_ONDOWNLOAD = config.checkbox_to_value(boxcar2_notify_ondownload)
         sickbeard.BOXCAR2_ACCESS_TOKEN = boxcar2_access_token
 
         sickbeard.USE_NMA = config.checkbox_to_value(use_nma)
